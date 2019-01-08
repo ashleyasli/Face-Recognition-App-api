@@ -4,15 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "nodemon server.js"
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashleyasli/Face-Recognition-App-api.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashleyasli/Face-Recognition-App-api/issues"
+  },
+  "homepage": "https://github.com/ashleyasli/Face-Recognition-App-api#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
     "nodemon": "^1.18.9"
   }
 }
